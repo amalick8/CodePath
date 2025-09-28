@@ -15,7 +15,14 @@ const Calendar = () => {
             </tr>
           </thead>
           <tbody>
-            {/* Add your table rows here */}
+            <td className='time'>Insert Time</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tbody>
         </table>
       </div>
