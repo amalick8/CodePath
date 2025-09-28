@@ -1,16 +1,44 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Timetabled – CodePath Lab 1
 
-Currently, two official plugins are available:
+This project is a simple React timetable/calendar app built as part of CodePath’s Web Development course (Lab 1). It demonstrates basic React concepts, component structure, props, and styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Displays a weekly calendar in a table format
+- Each cell can show an event name and location
+- Events are styled with different background colors using props
+- Responsive and easy to customize
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1. Clone the repository:
+	```
+	git clone https://github.com/your-username/your-repo-name.git
+	```
+2. Install dependencies:
+	```
+	npm install
+	```
+3. Start the development server:
+	```
+	npm run dev
+	```
+4. Open your browser to `http://localhost:5173` (or the port shown in your terminal).
+
+## Learning Goals
+
+- Practice creating and using React components
+- Pass and use props for dynamic content and styling
+- Structure a calendar using HTML tables in React
+- Apply CSS for custom component styles
+
+## Acknowledgments
+
+- Built for CodePath’s Web Development course, Lab 1
