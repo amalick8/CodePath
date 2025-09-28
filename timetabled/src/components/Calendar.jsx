@@ -1,3 +1,6 @@
+import Event from './Event';
+
+
 const Calendar = () => {
 
     return (
@@ -5,6 +8,7 @@ const Calendar = () => {
         <table>
           <thead>
             <tr>
+              <th>Time</th>
               <th>Sunday</th>
               <th>Monday</th>
               <th>Tuesday</th>
@@ -15,14 +19,105 @@ const Calendar = () => {
             </tr>
           </thead>
           <tbody>
-            <td className='time'>Insert Time</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <tr>
+              <td className="time">8 am</td>
+              <Event event='Fancy Dinner 🎩' color='green' location='Omni Hotel, Dallas'/>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td className="time">9 am</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td className="time">10 am</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <Event event='Lecture on AI 🤖' color='red' location='SEIR Building'/>              <td></td>
+            </tr>
+            <tr>
+              <td className="time">11 am</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td className="time">12 pm</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td className="time">1 pm</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <Event event='Group study 📚' color='orange' location='Central Library'/>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td className="time">2 pm</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td className="time">3 pm</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td className="time">4 pm</td>
+              <td></td>
+              <Event event='Gym 🏋️‍♂️' color='blue' location='Activies Center'/>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td className="time">5 pm</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
           </tbody>
         </table>
       </div>
